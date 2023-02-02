@@ -1,0 +1,15 @@
+leer= []
+
+num1 = input("digite un numero: ")
+num2 = input("digite un numero: ")
+num3 = input("digite un numero: ")
+num4 = input("digite un numero: ")
+
+leer.append(num1)
+leer.append(num2)
+leer.append(num3)
+leer.append(num4)
+
+
+leer.sort()
+print(leer) #Lista ordenada menor a mayor
